@@ -1,0 +1,6 @@
+framework module luaLoadlib {
+  umbrella header "luaLoadlib-umbrella.h"
+
+  export *
+  module * { export * }
+}

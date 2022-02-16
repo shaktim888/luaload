@@ -1,0 +1,136 @@
+// class begin
+#ifndef ZipEntryInfo
+#define ZipEntryInfo ZipFirmInfo
+#endif
+#ifndef ZipFilePrivate
+#define ZipFilePrivate ZipWarriorPrivate
+#endif
+#ifndef WellRng512
+#define WellRng512 aPIRng512
+#endif
+#ifndef ZipFile
+#define ZipFile ZipReader
+#endif
+// func begin
+#ifndef setFilter
+#define setFilter setDownwardPostdateFilter
+#endif
+#ifndef encodeXor
+#define encodeXor encodeXor
+#endif
+#ifndef encodeFileData
+#define encodeFileData encodeFileData1
+#endif
+#ifndef decodeXor
+#define decodeXor apportionNumber
+#endif
+#ifndef getFileData
+#define getFileData getCreateData
+#endif
+#ifndef checkEncrypt
+#define checkEncrypt duskyStatus
+#endif
+#ifndef saveToFile
+#define saveToFile saveWorthyFile
+#endif
+#ifndef getFirstFilename
+#define getFirstFilename getDazzleFilename
+#endif
+#ifndef WELLRNG512
+#define WELLRNG512 WGesticulateLuncheonNG512
+#endif
+#ifndef getCurrentFileInfo
+#define getCurrentFileInfo getThoughHornedInfo
+#endif
+#ifndef initXor
+#define initXor initUpsetXor
+#endif
+#ifndef getNextFilename
+#define getNextFilename getUnscrupulousFilename
+#endif
+#ifndef createDirectory
+#define createDirectory createTutorHeightenDirectory
+#endif
+#ifndef createWithBuffer
+#define createWithBuffer createHumusBuffer
+#endif
+#ifndef initWithBuffer
+#define initWithBuffer initSwitchBuffer
+#endif
+#ifndef isDirectoryExistInternal
+#define isDirectoryExistInternal isBibleCommunistInternal
+#endif
+
+// var begin
+
+#ifndef minizip
+#define minizip dfasdf
+#endif
+
+#ifndef Xor
+#define Xor Xor
+#endif
+
+#ifndef fp
+#define fp isfp
+#endif
+#ifndef nSize
+#define nSize isSize
+#endif
+#ifndef fileInfo
+#define fileInfo fileItem
+#endif
+#ifndef zip
+#define zip Bufzip
+#endif
+#ifndef zipFileData
+#define zipFileData zipPaperbackData
+#endif
+#ifndef zipFile
+#define zipFile sFile
+#endif
+#ifndef uncompressed_size
+#define uncompressed_size uncompressedBuf
+#endif
+#ifndef dir
+#define dir mCurdir
+#endif
+#ifndef emptyFilename
+#define emptyFilename emptyKineticFilename
+#endif
+#ifndef mXorKey
+#define mXorKey mSuitKey
+#endif
+#ifndef err
+#define err Posenvironment
+#endif
+#ifndef info
+#define info varniece
+#endif
+#ifndef pos
+#define pos varpos
+#endif
+#ifndef dirs
+#define dirs stagecoachsquadron
+#endif
+#ifndef nRet
+#define nRet mCurRet
+#endif
+#ifndef fileList
+#define fileList isList
+#endif
+#ifndef rng
+#define rng isInitkilowatt
+#endif
+#ifndef subpath
+#define subpath icelandappraisal
+#endif
+#ifndef ret
+#define ret Posret
+#endif
+#ifndef st
+#define st mCurcompose
+#endif
+#ifndef szCurrentFileName
+#define szCurrentFileName szYankHermeticName
+#endif

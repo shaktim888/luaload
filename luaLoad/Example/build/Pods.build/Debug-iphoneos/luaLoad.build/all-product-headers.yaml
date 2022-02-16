@@ -1,0 +1,17 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/ipn0he/Desktop/ios/luaload/luaLoad/Example/build/Debug-iphoneos/luaLoad",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ZipLoader.h",
+          'external-contents': "/Users/ipn0he/Desktop/ios/luaload/luaLoad/luaLoad/Classes/ZipLoader.h"
+        }
+      ]
+    }
+  ]
+}

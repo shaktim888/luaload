@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+
+target 'luaLoad_Example' do
+  pod 'luaLoad', :path => '../'
+
+  target 'luaLoad_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

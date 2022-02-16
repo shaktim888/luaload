@@ -1,0 +1,16 @@
+PODS:
+  - luaLoad (0.1.0)
+
+DEPENDENCIES:
+  - luaLoad (from `../`)
+
+EXTERNAL SOURCES:
+  luaLoad:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  luaLoad: 7faa51cc92018988361ad405b7f9fc85493e8f7b
+
+PODFILE CHECKSUM: 3c8d4e18eede2f850c2c903d40b157b6d7ad7c75
+
+COCOAPODS: 1.8.4

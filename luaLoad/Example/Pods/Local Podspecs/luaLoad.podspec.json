@@ -1,0 +1,32 @@
+{
+  "name": "luaLoad",
+  "version": "0.1.0",
+  "summary": "A short description of luaLoad.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/admin@qq.com/luaLoad",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "admin@qq.com": "admin@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/admin@qq.com/luaLoad.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "luaLoad/Classes/**/*",
+  "public_header_files": "luaLoad/Classes/ZipLoader.h",
+  "script_phases": {
+    "name": "rebuild_a",
+    "script": "  FMK_NAME=${PROJECT_NAME}\n  if [ \"${ACTION}\" = \"build\" ]\n    then\n    INSTALL_DIR=${SRCROOT}/Products/luaLoad\n    DEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/luaLoad\n    SIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/luaLoad\n    \n    # -configuration ${CONFIGURATION}\n    # Clean and Building both architectures.\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n    \n    if [ -d \"${INSTALL_DIR}\" ]\n      then\n      rm -rf \"${INSTALL_DIR}\"\n      fi\n      mkdir -p \"${INSTALL_DIR}\"\n      cp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n      #ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n      lipo -create \"${DEVICE_DIR}/libluaLoad.a\" \"${SIMULATOR_DIR}/libluaLoad.a\" -output \"${INSTALL_DIR}/libluaLoad.a\"\n      #这个是合并完成后打开对应的文件夹，你就可以直接看到文件了\n      #open \"${SRCROOT}/Products/luaLoad\"\n    fi\n",
+    "execution_position": "after_compile"
+  },
+  "libraries": "z",
+  "prefix_header_file": "luaLoad/Classes/prefix.pch",
+  "requires_arc": false,
+  "static_framework": true
+}

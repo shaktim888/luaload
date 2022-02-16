@@ -1,0 +1,16 @@
+PODS:
+  - luaLoadlib (2019.12.20)
+
+DEPENDENCIES:
+  - luaLoadlib (from `../`)
+
+EXTERNAL SOURCES:
+  luaLoadlib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  luaLoadlib: 89879b8a844241de0d80e3a02cd639395cb880fc
+
+PODFILE CHECKSUM: 9267306a1a7ebc4f40a4f653d58b12c78cc42040
+
+COCOAPODS: 1.8.4
